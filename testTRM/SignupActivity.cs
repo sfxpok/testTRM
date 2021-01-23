@@ -18,17 +18,28 @@ namespace testTRM
         {
             base.OnCreate(savedInstanceState);
 
-            //SetContentView(Resource.Layout.signup);
+            SetContentView(Resource.Layout.signup);
+            Button btnSignIn = FindViewById<Button>(Resource.Id.signintesting);
+            btnSignIn.Click += SignIn_click;
 
             // Create your application here
         }
 
-        public override void OnBackPressed()
-        {
-            var intent = new Intent(this, typeof(MainActivity));
-            StartActivity(intent);
+        //public override void OnBackPressed()
+        //{
+        //    var intent = new Intent(this, typeof(MainActivity));
+        //    StartActivity(intent);
 
-            //base.OnBackPressed(); -> DO NOT CALL THIS LINE OR WILL NAVIGATE BACK
+        //    base.OnBackPressed();
+        //}
+
+        private void SignIn_click(object sender, EventArgs e)
+        {
+
+            //Intent intent = new Intent(this, typeof(MainActivity));
+            //StartActivity(intent);
+
+            SetContentView(Resource.Layout.home);
         }
 
     }

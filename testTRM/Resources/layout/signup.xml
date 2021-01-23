@@ -8,13 +8,13 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_margin="10dp"
-        android:orientation="vertical">
+        android:orientation="vertical"><!--
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
-            android:src="@drawable/logo_madeira" />
+            android:src="@drawable/logo_madeira" />-->
         <TextView
             android:text="Full Name"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -87,12 +87,11 @@
             android:background="#d3d3d3"
             android:text="Create"
             android:textColor="@android:color/white" />
-        <TextView
-            android:text="Already have an account? Sign In"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
+        <Button
+            android:text="Don't have an account? Sign In"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:padding="50dp"
-            android:id="@+id/textView6" />
+            android:layout_marginTop="10dp"
+            android:id="@+id/signintesting"/>
     </LinearLayout>
 </RelativeLayout>

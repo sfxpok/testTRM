@@ -18,6 +18,8 @@ namespace testTRM
         {
             base.OnCreate(savedInstanceState);
 
+            SetContentView(Resource.Layout.trails);
+
             // Create your application here
 
             Button btnCompletedTrails = FindViewById<Button>(Resource.Id.completed_trails);
