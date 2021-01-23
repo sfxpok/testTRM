@@ -20,8 +20,8 @@ namespace testTRM
             SetContentView(Resource.Layout.completed_trails);
 
 
-            Button btnLevadaAlecrim = FindViewById<Button>(Resource.Id.textView1);
-            btnLevadaAlecrim.Click += LevadaAlecrim_click;
+            //Button btnLevadaAlecrim = FindViewById<Button>(Resource.Id.textView1);
+            //btnLevadaAlecrim.Click += LevadaAlecrim_click;
 
 
             // Create your application here
