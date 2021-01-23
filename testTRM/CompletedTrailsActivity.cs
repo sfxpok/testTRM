@@ -18,7 +18,19 @@ namespace testTRM
         {
             base.OnCreate(savedInstanceState);
 
+            Button btnLevadaAlecrim = FindViewById<Button>(Resource.Id.levada25fontes);
+            btnLevadaAlecrim.Click += LevadaAlecrim_click;
+
+
             // Create your application here
         }
+
+
+        private void LevadaAlecrim_click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(LevadaAlecrimActivity));
+            // SetContentView(Resource.Layout.trails);
+        }
+
     }
 }
