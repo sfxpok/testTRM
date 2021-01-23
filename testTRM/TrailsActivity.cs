@@ -24,11 +24,20 @@ namespace testTRM
 
             Button btnCompletedTrails = FindViewById<Button>(Resource.Id.completed_trails);
             btnCompletedTrails.Click += CompletedTrails_click;
+
+            TextView tv = FindViewById<TextView>(Resource.Id.textView1);
+            tv.Click += EnterTrail;
         }
 
         private void CompletedTrails_click(object sender, EventArgs e)
         {
             StartActivity(typeof(CompletedTrailsActivity));
+        }
+
+        private void EnterTrail(object sender, EventArgs e)
+        {
+            StartActivity(typeof(LevadaAlecrimActivity));
+
         }
 
         //public override void OnBackPressed()
