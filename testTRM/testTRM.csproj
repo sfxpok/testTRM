@@ -128,7 +128,7 @@
     <AndroidResource Include="Resources\drawable\logo_madeira.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\levada25fontes.xml">
+    <AndroidResource Include="Resources\layout\levada_alecrim.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

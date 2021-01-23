@@ -28,7 +28,7 @@ namespace testTRM
 
         private void CompletedTrails_click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.completed_trails);
+            StartActivity(typeof(CompletedTrailsActivity));
         }
 
         //public override void OnBackPressed()

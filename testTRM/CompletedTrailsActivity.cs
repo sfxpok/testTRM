@@ -17,8 +17,10 @@ namespace testTRM
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.completed_trails);
 
-            Button btnLevadaAlecrim = FindViewById<Button>(Resource.Id.levada25fontes);
+
+            Button btnLevadaAlecrim = FindViewById<Button>(Resource.Id.textView1);
             btnLevadaAlecrim.Click += LevadaAlecrim_click;
 
 

@@ -5,7 +5,7 @@
     android:background="#f7f7f7">
     
     <TextView
-        android:text="3 Trails Completed"
+        android:text="2 Trails Completed"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -55,40 +55,6 @@
                 android:layout_width="150.0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
-        </LinearLayout>
-
-        <TextView
-            android:text="Caminho Real da Encumeada"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView4" />
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:minWidth="25px"
-            android:minHeight="25px"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/linearLayout2" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:text="5h"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:layout_width="150.0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView5" />
-            <TextView
-                android:text="Curral das Freiras - Encumeada"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView6" />
         </LinearLayout>
 
         <TextView
