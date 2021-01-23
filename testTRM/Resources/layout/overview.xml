@@ -20,18 +20,20 @@
             android:layout_height="wrap_content"
             android:id="@+id/linearLayout2">
             <TextView
-                android:text="Medium Text"
+                android:text="Completed"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:id="@+id/textView3" />
             <TextView
-                android:text="Large Text"
+                android:text="64"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:id="@+id/textView4" />
             <ImageView
                 android:src="@android:drawable/ic_menu_gallery"
@@ -48,18 +50,20 @@
             android:layout_height="wrap_content"
             android:id="@+id/linearLayout1">
             <TextView
-                android:text="Medium Text"
+                android:text="Reviews"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
+                android:gravity="center"
                 android:id="@+id/textView1" />
             <TextView
-                android:text="Large Text"
+                android:text="32"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
+                android:gravity="center"
                 android:id="@+id/textView2" />
             <ImageView
                 android:src="@android:drawable/ic_menu_gallery"
@@ -76,18 +80,20 @@
             android:layout_height="wrap_content"
             android:id="@+id/linearLayout3">
             <TextView
-                android:text="Medium Text"
+                android:text="Ranking"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
+                android:gravity="center"
                 android:id="@+id/textView5" />
             <TextView
-                android:text="Large Text"
+                android:text="16"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
+                android:gravity="center"
                 android:id="@+id/textView6" />
             <ImageView
                 android:src="@android:drawable/ic_menu_gallery"

@@ -10,7 +10,17 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:id="@+id/textView1" />
+
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/levadadoalecrim"
+        android:id="@+id/imageView1" />
+
+
 
     <LinearLayout
         android:orientation="horizontal"
@@ -62,16 +72,10 @@
         </LinearLayout>
 
     <TextView
-        android:text="The Levada do Alecrim was built (...)"
+        android:text="The Levada do Alecrim was built in order to receive and transport the water from the Lajeado and Alecrim creeks for the supply of the Calheta Hydroelectric Station. (...)"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView6" />
-
-
-
-
-
-
 
     </LinearLayout>
