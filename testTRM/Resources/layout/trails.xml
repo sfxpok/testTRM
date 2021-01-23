@@ -23,39 +23,39 @@
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
             android:src="@drawable/logo_madeira" />
-        <TextView
-            android:text="Levada das 25 Fontes"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView1" />
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:minWidth="25px"
-            android:minHeight="25px"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/linearLayout1" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
             <TextView
-                android:text="1:30h"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:layout_width="150.0dp"
+                android:text="Levada das 25 Fontes"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView3" />
-            <TextView
-                android:text="Calheta"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:layout_width="150.0dp"
+                android:id="@+id/textView1" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView2" />
-        </LinearLayout>
+                android:id="@+id/linearLayout1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="1:30h"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="150.0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3" />
+                <TextView
+                    android:text="Calheta"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="150.0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2" />
+            </LinearLayout>
 
         <TextView
             android:text="Caminho Real da Encumeada"
