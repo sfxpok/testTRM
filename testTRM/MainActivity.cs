@@ -28,12 +28,16 @@ namespace testTRM
 
         private void Login_click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.trails);
+            StartActivity(typeof(TrailsActivity));
+           // SetContentView(Resource.Layout.trails);
         }
         private void Signup_click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.signup);
+            StartActivity(typeof(SignupActivity));
         }
 
+        public override void OnBackPressed()
+        {
+        }
     }
 }

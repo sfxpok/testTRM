@@ -41,6 +41,5 @@ namespace testTRM
 
             SetContentView(Resource.Layout.home);
         }
-
     }
 }

@@ -31,5 +31,11 @@ namespace testTRM
             SetContentView(Resource.Layout.completed_trails);
         }
 
+        //public override void OnBackPressed()
+        //{
+        //    StartActivity(typeof(MainActivity));
+        //}
+
+
     }
 }
