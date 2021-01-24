@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f7f7f7">
@@ -8,7 +9,8 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_margin="10dp"
-        android:orientation="vertical"><!--
+        android:orientation="vertical">
+        <!--
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -22,7 +24,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView1" />
         <EditText
-            android:id="@+id/textUser"
+            android:id="@+id/inputUsername"
             android:layout_width="fill_parent"
             android:layout_height="42dp"
             android:padding="5dp"
@@ -38,7 +40,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView2" />
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/inputEmail"
             android:layout_width="fill_parent"
             android:layout_height="45dp"
             android:padding="5dp"
@@ -54,7 +56,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView3" />
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/inputPassword"
             android:layout_width="fill_parent"
             android:layout_height="45dp"
             android:padding="5dp"
@@ -70,7 +72,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView4" />
         <EditText
-            android:id="@+id/birthday"
+            android:id="@+id/inputBirthday"
             android:layout_width="fill_parent"
             android:layout_height="45dp"
             android:padding="5dp"
@@ -82,16 +84,24 @@
             android:id="@+id/login"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/birthday"
+            android:layout_below="@id/inputBirthday"
             android:layout_marginTop="10dp"
             android:background="#d3d3d3"
             android:text="Create"
             android:textColor="@android:color/white" />
-<!--        <Button
+        <!--        <Button
             android:text="Don't have an account? Sign In"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:id="@+id/signintesting"/>
--->    </LinearLayout>
+-->
+
+        <Button
+            android:text="Test_ADDUSER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnTestUser" />
+
+    </LinearLayout>
 </RelativeLayout>

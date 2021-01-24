@@ -36,8 +36,5 @@ namespace testTRM
             StartActivity(typeof(SignupActivity));
         }
 
-        public override void OnBackPressed()
-        {
-        }
     }
 }
