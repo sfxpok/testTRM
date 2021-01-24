@@ -27,17 +27,24 @@ namespace testTRM
 
             TextView tv = FindViewById<TextView>(Resource.Id.textView1);
             tv.Click += EnterTrail;
+
+            Button btnLogout = FindViewById<Button>(Resource.Id.btnLogout);
+            btnLogout.Click += Logout_click;
+
         }
 
         private void CompletedTrails_click(object sender, EventArgs e)
         {
             StartActivity(typeof(CompletedTrailsActivity));
         }
+        private void Logout_click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(MainActivity));
+        }
 
         private void EnterTrail(object sender, EventArgs e)
         {
             StartActivity(typeof(LevadaAlecrimActivity));
-
         }
 
         //public override void OnBackPressed()

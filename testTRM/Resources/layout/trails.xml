@@ -124,6 +124,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:id="@+id/completed_trails" />
+        <Button
+            android:text="Log out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:id="@+id/btnLogout" />
 
 
     </LinearLayout>
