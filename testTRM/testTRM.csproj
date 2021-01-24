@@ -64,6 +64,7 @@
     <Compile Include="CompletedTrailsActivity.cs" />
     <Compile Include="Entities\Constants.cs" />
     <Compile Include="Entities\Users.cs" />
+    <Compile Include="Entities\UsersRepositoryFacade.cs" />
     <Compile Include="LevadaAlecrimActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="OverviewActivity.cs" />

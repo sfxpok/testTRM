@@ -33,7 +33,7 @@ namespace testTRM
             var email = FindViewById<EditText>(Resource.Id.inputEmail).Text;
             var birthday = FindViewById<EditText>(Resource.Id.inputBirthday).Text;
 
-            var id = PeopleRepository.SavePerson(new User
+            var id = UserRepository.SaveUser(new User
             {
                 username = username,
                 password = password,
@@ -41,12 +41,12 @@ namespace testTRM
                 birthday = birthday
             });
 
-            var person = PeopleRepository.GetPerson(id);
+            var user = UserRepository.GetUser(id);
 
-            if (person == null)
-                Toast.MakeText(this, $"Person: Username={username}, Email={email} wasn't properly saved!", ToastLength.Long).Show();
+            if (user == null)
+                Toast.MakeText(this, $"User: Username={username}, Email={email} wasn't properly saved!", ToastLength.Long).Show();
             else
-                Toast.MakeText(this, $"Person saved, details: {person}", ToastLength.Long).Show();
+                Toast.MakeText(this, $"User saved, details: {user}", ToastLength.Long).Show();
 
         }
 
