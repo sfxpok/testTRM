@@ -23,7 +23,7 @@ namespace testTRM.Entities
 
         public override string ToString()
         {
-            return $"[Person: Id={id_user}, username={username}, password={password}, email={email}, birthday={birthday}]";
+            return $"[Username ID: Id={id_user}, Username={username}, Password={password}, Email={email}, Birthday={birthday}]";
         }
     }
 }
