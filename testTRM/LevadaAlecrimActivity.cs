@@ -21,6 +21,14 @@ namespace testTRM
             // Create your application here
 
             SetContentView(Resource.Layout.levada_alecrim);
+
+            Button btnOverview = FindViewById<Button>(Resource.Id.btnOverview);
+            btnOverview.Click += Overview_click;
+        }
+        private void Overview_click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(OverviewActivity));
+            // SetContentView(Resource.Layout.trails);
         }
     }
 }

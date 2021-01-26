@@ -18,6 +18,8 @@ namespace testTRM
         {
             base.OnCreate(savedInstanceState);
 
+            SetContentView(Resource.Layout.overview);
+
             // Create your application here
         }
     }
